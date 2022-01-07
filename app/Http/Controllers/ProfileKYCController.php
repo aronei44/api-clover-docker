@@ -117,7 +117,7 @@ class ProfileKYCController extends Controller
 
                     $this->storeImageVerification($request);
 
-                    $this->addReview($request);
+                    // $this->addReview($request);
 
                     return response()->json([
                         'message'=>'profile updated',
